@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "newsletters"
+version = "0.1.0"
+description = "Framework for semantic information distillation and agent-driven communication workflows."
+authors = [
+    { name = "JJ Airuoyo", email = "ijairuoyo@gmail.com" },
+    { name = "Nate Neibauer", email = "nneibauer044@gmail.com" },
+]
+dependencies = [
+    "pydantic-ai",
+    "typer[all]",
+    "langgraph",
+    "langsmith",
+    "langchain[anthropic]",
+]
+
+[project.optional-dependencies]
+panel = ["panel", "holoviews", "bokeh", "numpy", "pandas"]
+dev = ["pytest", "black", "ipdb", "ipython", "isort"]
+test = ["pytest"]
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+
+[tool.mypy]
+python_version = "3.12"
+
+# Scripts
+[project.scripts]
+ask = "robot_parts.cli:app"

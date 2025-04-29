@@ -1,0 +1,1 @@
+"""Helpful CLI for newsletters development"""

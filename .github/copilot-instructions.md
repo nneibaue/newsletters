@@ -1,0 +1,1 @@
+Always attach the context/ folder in agent mode

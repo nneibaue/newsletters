@@ -1,0 +1,42 @@
+{
+  "name": "Newsletters 📰",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "mounts": [
+    "source=/home/${localEnv:USER}/.ssh,target=/home/vscode/.ssh,type=bind"
+  ],
+  "containerEnv": {
+    "GEMINI_API_KEY": "${localEnv:GEMINI_API_KEY}"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.black-formatter",
+        "charliermarsh.ruff",
+        "ms-python.debugpy",
+        "ms-azuretools.vscode-docker",
+        "ms-python.mypy-type-checker",
+        "ms-toolsai.jupyter",
+        "tamasfe.even-better-toml",
+        "redhat.vscode-yaml",
+        "GitHub.copilot",
+        "GitHub.copilot-labs",
+        "GitHub.copilot-chat",
+        "Perkovec.emoji"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll": "always"
+        },
+        "python.analysis.typeCheckingMode": "standard"
+      }
+    }
+  },
+  "postStartCommand": "sudo pip install -e .[dev]",
+  "remoteUser": "vscode"
+}

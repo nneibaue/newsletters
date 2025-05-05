@@ -1,0 +1,484 @@
+quarter: Q2
+year: 2025
+kpis:
+- title: Dilithium Efficiency Index
+  description: Measures the warp core's use of dilithium crystals.
+  status: COMPLETED
+  owner: williamr
+  last_updated: '2025-05-05T05:23:13.791315'
+  data_link: https://starfleet.int/kpis/Dilithium_Efficiency_Index
+- title: Medical Readiness Score
+  description: Readiness level of medical bay and staff.
+  status: NOT_STARTED
+  owner: geordila
+  last_updated: '2025-05-05T05:23:13.791330'
+  data_link: https://starfleet.int/kpis/Medical_Readiness_Score
+- title: Warp Core Stability
+  description: Real-time metrics of warp core variance.
+  status: IN_PROGRESS
+  owner: deannatr
+  last_updated: '2025-05-05T05:23:13.791336'
+  data_link: https://starfleet.int/kpis/Warp_Core_Stability
+- title: Crew Morale Rating
+  description: Aggregated sentiment of crew wellness.
+  status: COMPLETED
+  owner: dataf606
+  last_updated: '2025-05-05T05:23:13.791341'
+  data_link: https://starfleet.int/kpis/Crew_Morale_Rating
+- title: Tactical Response Time
+  description: Average time to respond to red alert.
+  status: COMPLETED
+  owner: dataf606
+  last_updated: '2025-05-05T05:23:13.791346'
+  data_link: https://starfleet.int/kpis/Tactical_Response_Time
+- title: Diagnostic Uptime
+  description: Percent uptime for diagnostic subsystems.
+  status: NOT_STARTED
+  owner: worf9e03
+  last_updated: '2025-05-05T05:23:13.791352'
+  data_link: https://starfleet.int/kpis/Diagnostic_Uptime
+- title: Holodeck Safety Metric
+  description: Number of incidents per holodeck session.
+  status: IN_PROGRESS
+  owner: williamr
+  last_updated: '2025-05-05T05:23:13.791357'
+  data_link: https://starfleet.int/kpis/Holodeck_Safety_Metric
+- title: Systems Integration Lag
+  description: Time delay in new systems rollout.
+  status: COMPLETED
+  owner: jean-luc
+  last_updated: '2025-05-05T05:23:13.791364'
+  data_link: https://starfleet.int/kpis/Systems_Integration_Lag
+- title: Anomaly Detection Rate
+  description: Frequency and severity of unexpected findings.
+  status: IN_PROGRESS
+  owner: worf9e03
+  last_updated: '2025-05-05T05:23:13.791371'
+  data_link: https://starfleet.int/kpis/Anomaly_Detection_Rate
+- title: Shuttlecraft Launch Efficiency
+  description: Time from command to deployment.
+  status: IN_PROGRESS
+  owner: worf9e03
+  last_updated: '2025-05-05T05:23:13.791376'
+  data_link: https://starfleet.int/kpis/Shuttlecraft_Launch_Efficiency
+objectives:
+  williamr:
+  - title: Q2 Objective 1 for williamr
+    key_results:
+    - title: Key Result 1.1
+      description: Achieve meaningful progress in metric 1 of Objective 1
+      owner: williamr
+      kpis:
+      - Shuttlecraft Launch Efficiency
+      - Holodeck Safety Metric
+    - title: Key Result 1.2
+      description: Achieve meaningful progress in metric 2 of Objective 1
+      owner: williamr
+      kpis:
+      - Anomaly Detection Rate
+      - Tactical Response Time
+    - title: Key Result 1.3
+      description: Achieve meaningful progress in metric 3 of Objective 1
+      owner: williamr
+      kpis:
+      - Shuttlecraft Launch Efficiency
+    parent_key_result: null
+  - title: Q2 Objective 2 for williamr
+    key_results:
+    - title: Key Result 2.1
+      description: Achieve meaningful progress in metric 1 of Objective 2
+      owner: williamr
+      kpis:
+      - Shuttlecraft Launch Efficiency
+      - Diagnostic Uptime
+    - title: Key Result 2.2
+      description: Achieve meaningful progress in metric 2 of Objective 2
+      owner: williamr
+      kpis:
+      - Dilithium Efficiency Index
+    - title: Key Result 2.3
+      description: Achieve meaningful progress in metric 3 of Objective 2
+      owner: williamr
+      kpis:
+      - Dilithium Efficiency Index
+    parent_key_result: null
+  - title: Q2 Objective 3 for williamr
+    key_results:
+    - title: Key Result 3.1
+      description: Achieve meaningful progress in metric 1 of Objective 3
+      owner: williamr
+      kpis:
+      - Holodeck Safety Metric
+      - Holodeck Safety Metric
+    - title: Key Result 3.2
+      description: Achieve meaningful progress in metric 2 of Objective 3
+      owner: williamr
+      kpis:
+      - Medical Readiness Score
+    - title: Key Result 3.3
+      description: Achieve meaningful progress in metric 3 of Objective 3
+      owner: williamr
+      kpis:
+      - Tactical Response Time
+    parent_key_result: null
+  geordila:
+  - title: Q2 Objective 1 for geordila
+    key_results:
+    - title: Key Result 1.1
+      description: Achieve meaningful progress in metric 1 of Objective 1
+      owner: geordila
+      kpis:
+      - Tactical Response Time
+    - title: Key Result 1.2
+      description: Achieve meaningful progress in metric 2 of Objective 1
+      owner: geordila
+      kpis:
+      - Diagnostic Uptime
+    - title: Key Result 1.3
+      description: Achieve meaningful progress in metric 3 of Objective 1
+      owner: geordila
+      kpis:
+      - Crew Morale Rating
+    parent_key_result: null
+  - title: Q2 Objective 2 for geordila
+    key_results:
+    - title: Key Result 2.1
+      description: Achieve meaningful progress in metric 1 of Objective 2
+      owner: geordila
+      kpis:
+      - Anomaly Detection Rate
+    - title: Key Result 2.2
+      description: Achieve meaningful progress in metric 2 of Objective 2
+      owner: geordila
+      kpis:
+      - Anomaly Detection Rate
+    - title: Key Result 2.3
+      description: Achieve meaningful progress in metric 3 of Objective 2
+      owner: geordila
+      kpis:
+      - Anomaly Detection Rate
+      - Anomaly Detection Rate
+    parent_key_result: null
+  - title: Q2 Objective 3 for geordila
+    key_results:
+    - title: Key Result 3.1
+      description: Achieve meaningful progress in metric 1 of Objective 3
+      owner: geordila
+      kpis:
+      - Tactical Response Time
+      - Tactical Response Time
+    - title: Key Result 3.2
+      description: Achieve meaningful progress in metric 2 of Objective 3
+      owner: geordila
+      kpis:
+      - Medical Readiness Score
+      - Medical Readiness Score
+    - title: Key Result 3.3
+      description: Achieve meaningful progress in metric 3 of Objective 3
+      owner: geordila
+      kpis:
+      - Systems Integration Lag
+    parent_key_result: null
+  dataf606:
+  - title: Q2 Objective 1 for dataf606
+    key_results:
+    - title: Key Result 1.1
+      description: Achieve meaningful progress in metric 1 of Objective 1
+      owner: dataf606
+      kpis:
+      - Crew Morale Rating
+    - title: Key Result 1.2
+      description: Achieve meaningful progress in metric 2 of Objective 1
+      owner: dataf606
+      kpis:
+      - Dilithium Efficiency Index
+    - title: Key Result 1.3
+      description: Achieve meaningful progress in metric 3 of Objective 1
+      owner: dataf606
+      kpis:
+      - Warp Core Stability
+      - Medical Readiness Score
+    parent_key_result: null
+  - title: Q2 Objective 2 for dataf606
+    key_results:
+    - title: Key Result 2.1
+      description: Achieve meaningful progress in metric 1 of Objective 2
+      owner: dataf606
+      kpis:
+      - Diagnostic Uptime
+    - title: Key Result 2.2
+      description: Achieve meaningful progress in metric 2 of Objective 2
+      owner: dataf606
+      kpis:
+      - Diagnostic Uptime
+      - Warp Core Stability
+    - title: Key Result 2.3
+      description: Achieve meaningful progress in metric 3 of Objective 2
+      owner: dataf606
+      kpis:
+      - Tactical Response Time
+    parent_key_result: null
+  - title: Q2 Objective 3 for dataf606
+    key_results:
+    - title: Key Result 3.1
+      description: Achieve meaningful progress in metric 1 of Objective 3
+      owner: dataf606
+      kpis:
+      - Shuttlecraft Launch Efficiency
+    - title: Key Result 3.2
+      description: Achieve meaningful progress in metric 2 of Objective 3
+      owner: dataf606
+      kpis:
+      - Tactical Response Time
+    - title: Key Result 3.3
+      description: Achieve meaningful progress in metric 3 of Objective 3
+      owner: dataf606
+      kpis:
+      - Anomaly Detection Rate
+      - Systems Integration Lag
+    parent_key_result: null
+  beverlyc:
+  - title: Q2 Objective 1 for beverlyc
+    key_results:
+    - title: Key Result 1.1
+      description: Achieve meaningful progress in metric 1 of Objective 1
+      owner: beverlyc
+      kpis:
+      - Holodeck Safety Metric
+      - Dilithium Efficiency Index
+    - title: Key Result 1.2
+      description: Achieve meaningful progress in metric 2 of Objective 1
+      owner: beverlyc
+      kpis:
+      - Holodeck Safety Metric
+      - Dilithium Efficiency Index
+    - title: Key Result 1.3
+      description: Achieve meaningful progress in metric 3 of Objective 1
+      owner: beverlyc
+      kpis:
+      - Medical Readiness Score
+    parent_key_result: null
+  - title: Q2 Objective 2 for beverlyc
+    key_results:
+    - title: Key Result 2.1
+      description: Achieve meaningful progress in metric 1 of Objective 2
+      owner: beverlyc
+      kpis:
+      - Dilithium Efficiency Index
+    - title: Key Result 2.2
+      description: Achieve meaningful progress in metric 2 of Objective 2
+      owner: beverlyc
+      kpis:
+      - Crew Morale Rating
+    - title: Key Result 2.3
+      description: Achieve meaningful progress in metric 3 of Objective 2
+      owner: beverlyc
+      kpis:
+      - Anomaly Detection Rate
+      - Tactical Response Time
+    parent_key_result: null
+  - title: Q2 Objective 3 for beverlyc
+    key_results:
+    - title: Key Result 3.1
+      description: Achieve meaningful progress in metric 1 of Objective 3
+      owner: beverlyc
+      kpis:
+      - Holodeck Safety Metric
+      - Medical Readiness Score
+    - title: Key Result 3.2
+      description: Achieve meaningful progress in metric 2 of Objective 3
+      owner: beverlyc
+      kpis:
+      - Medical Readiness Score
+      - Dilithium Efficiency Index
+    - title: Key Result 3.3
+      description: Achieve meaningful progress in metric 3 of Objective 3
+      owner: beverlyc
+      kpis:
+      - Tactical Response Time
+      - Systems Integration Lag
+    parent_key_result: null
+  deannatr:
+  - title: Q2 Objective 1 for deannatr
+    key_results:
+    - title: Key Result 1.1
+      description: Achieve meaningful progress in metric 1 of Objective 1
+      owner: deannatr
+      kpis:
+      - Crew Morale Rating
+    - title: Key Result 1.2
+      description: Achieve meaningful progress in metric 2 of Objective 1
+      owner: deannatr
+      kpis:
+      - Dilithium Efficiency Index
+      - Crew Morale Rating
+    - title: Key Result 1.3
+      description: Achieve meaningful progress in metric 3 of Objective 1
+      owner: deannatr
+      kpis:
+      - Diagnostic Uptime
+    parent_key_result: null
+  - title: Q2 Objective 2 for deannatr
+    key_results:
+    - title: Key Result 2.1
+      description: Achieve meaningful progress in metric 1 of Objective 2
+      owner: deannatr
+      kpis:
+      - Shuttlecraft Launch Efficiency
+    - title: Key Result 2.2
+      description: Achieve meaningful progress in metric 2 of Objective 2
+      owner: deannatr
+      kpis:
+      - Systems Integration Lag
+    - title: Key Result 2.3
+      description: Achieve meaningful progress in metric 3 of Objective 2
+      owner: deannatr
+      kpis:
+      - Systems Integration Lag
+      - Dilithium Efficiency Index
+    parent_key_result: null
+  - title: Q2 Objective 3 for deannatr
+    key_results:
+    - title: Key Result 3.1
+      description: Achieve meaningful progress in metric 1 of Objective 3
+      owner: deannatr
+      kpis:
+      - Medical Readiness Score
+      - Warp Core Stability
+    - title: Key Result 3.2
+      description: Achieve meaningful progress in metric 2 of Objective 3
+      owner: deannatr
+      kpis:
+      - Anomaly Detection Rate
+    - title: Key Result 3.3
+      description: Achieve meaningful progress in metric 3 of Objective 3
+      owner: deannatr
+      kpis:
+      - Diagnostic Uptime
+      - Shuttlecraft Launch Efficiency
+    parent_key_result: null
+  worf9e03:
+  - title: Q2 Objective 1 for worf9e03
+    key_results:
+    - title: Key Result 1.1
+      description: Achieve meaningful progress in metric 1 of Objective 1
+      owner: worf9e03
+      kpis:
+      - Medical Readiness Score
+      - Medical Readiness Score
+    - title: Key Result 1.2
+      description: Achieve meaningful progress in metric 2 of Objective 1
+      owner: worf9e03
+      kpis:
+      - Crew Morale Rating
+      - Medical Readiness Score
+    - title: Key Result 1.3
+      description: Achieve meaningful progress in metric 3 of Objective 1
+      owner: worf9e03
+      kpis:
+      - Diagnostic Uptime
+      - Tactical Response Time
+    parent_key_result: null
+  - title: Q2 Objective 2 for worf9e03
+    key_results:
+    - title: Key Result 2.1
+      description: Achieve meaningful progress in metric 1 of Objective 2
+      owner: worf9e03
+      kpis:
+      - Holodeck Safety Metric
+    - title: Key Result 2.2
+      description: Achieve meaningful progress in metric 2 of Objective 2
+      owner: worf9e03
+      kpis:
+      - Tactical Response Time
+      - Diagnostic Uptime
+    - title: Key Result 2.3
+      description: Achieve meaningful progress in metric 3 of Objective 2
+      owner: worf9e03
+      kpis:
+      - Warp Core Stability
+    parent_key_result: null
+  - title: Q2 Objective 3 for worf9e03
+    key_results:
+    - title: Key Result 3.1
+      description: Achieve meaningful progress in metric 1 of Objective 3
+      owner: worf9e03
+      kpis:
+      - Dilithium Efficiency Index
+      - Shuttlecraft Launch Efficiency
+    - title: Key Result 3.2
+      description: Achieve meaningful progress in metric 2 of Objective 3
+      owner: worf9e03
+      kpis:
+      - Tactical Response Time
+    - title: Key Result 3.3
+      description: Achieve meaningful progress in metric 3 of Objective 3
+      owner: worf9e03
+      kpis:
+      - Dilithium Efficiency Index
+      - Shuttlecraft Launch Efficiency
+    parent_key_result: null
+  jean-luc:
+  - title: Q2 Captain's Objective 1
+    key_results:
+    - title: Leadership KR 1.1
+      description: Track execution of delegated Q2 Objective 3 by williamr
+      owner: jean-luc
+      kpis:
+      - Systems Integration Lag
+      mapped_objective: Q2 Objective 3 for williamr
+    - title: Leadership KR 1.2
+      description: Track execution of delegated Q2 Objective 2 by geordila
+      owner: jean-luc
+      kpis:
+      - Anomaly Detection Rate
+      mapped_objective: Q2 Objective 1 for geordila
+    - title: Leadership KR 1.3
+      description: Track execution of delegated Q2 Objective 2 by dataf606
+      owner: jean-luc
+      kpis:
+      - Anomaly Detection Rate
+      mapped_objective: Q2 Objective 1 for dataf606
+    parent_key_result: null
+  - title: Q2 Captain's Objective 2
+    key_results:
+    - title: Leadership KR 2.1
+      description: Track execution of delegated Q2 Objective 2 by beverlyc
+      owner: jean-luc
+      kpis:
+      - Warp Core Stability
+      mapped_objective: Q2 Objective 3 for beverlyc
+    - title: Leadership KR 2.2
+      description: Track execution of delegated Q2 Objective 3 by deannatr
+      owner: jean-luc
+      kpis:
+      - Holodeck Safety Metric
+      mapped_objective: Q2 Objective 3 for deannatr
+    - title: Leadership KR 2.3
+      description: Track execution of delegated Q2 Objective 3 by worf9e03
+      owner: jean-luc
+      kpis:
+      - Crew Morale Rating
+      mapped_objective: Q2 Objective 1 for worf9e03
+    parent_key_result: null
+  - title: Q2 Captain's Objective 3
+    key_results:
+    - title: Leadership KR 3.1
+      description: Track execution of delegated Q2 Objective 3 by geordila
+      owner: jean-luc
+      kpis:
+      - Dilithium Efficiency Index
+      mapped_objective: Q2 Objective 1 for geordila
+    - title: Leadership KR 3.2
+      description: Track execution of delegated Q2 Objective 1 by dataf606
+      owner: jean-luc
+      kpis:
+      - Warp Core Stability
+      mapped_objective: Q2 Objective 1 for dataf606
+    - title: Leadership KR 3.3
+      description: Track execution of delegated Q2 Objective 3 by deannatr
+      owner: jean-luc
+      kpis:
+      - Diagnostic Uptime
+      mapped_objective: Q2 Objective 2 for deannatr
+    parent_key_result: null

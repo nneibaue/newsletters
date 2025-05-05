@@ -1,0 +1,37 @@
+team_members:
+- name: Jean-Luc Picard
+  title: Captain
+  bio: Commander of the USS Enterprise-D, responsible for strategic leadership and
+    diplomatic missions.
+  idsid: jean-luc
+  image_url: https://placekitten.com/228/51
+- name: William Riker
+  title: First Officer
+  bio: Executes day-to-day operations and supports the captain in all major decisions.
+  idsid: williamr
+  image_url: https://dummyimage.com/501x457
+- name: Geordi La Forge
+  title: Chief Engineer
+  bio: Oversees engineering, warp systems, and starship maintenance operations.
+  idsid: geordila
+  image_url: https://placeimg.com/209/178/any
+- name: Data
+  title: Operations Officer
+  bio: Manages operations, science functions, and computational strategy onboard.
+  idsid: dataf606
+  image_url: https://www.lorempixel.com/65/61
+- name: Beverly Crusher
+  title: Chief Medical Officer
+  bio: Leads medical personnel, healthcare readiness, and biological research.
+  idsid: beverlyc
+  image_url: https://www.lorempixel.com/447/476
+- name: Deanna Troi
+  title: Counselor
+  bio: Guides emotional and psychological wellbeing of the crew.
+  idsid: deannatr
+  image_url: https://dummyimage.com/407x859
+- name: Worf
+  title: Security Chief
+  bio: Leads tactical response and ship security operations.
+  idsid: worf9e03
+  image_url: https://www.lorempixel.com/919/569

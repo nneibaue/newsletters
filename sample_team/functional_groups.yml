@@ -1,0 +1,37 @@
+functional_groups:
+- name: Bridge Operations
+  description: Manages the bridge and command-related operations.
+  module: Starfleet Division
+  owner: dataf606
+  team_members:
+  - deannatr
+  - dataf606
+  - geordila
+  - worf9e03
+  - beverlyc
+- name: Engineering Corps
+  description: Responsible for starship technical maintenance and innovation.
+  module: Starfleet Division
+  owner: jean-luc
+  team_members:
+  - williamr
+  - jean-luc
+  - deannatr
+- name: Medical & Wellbeing
+  description: Ensures physical and psychological health of the crew.
+  module: Starfleet Division
+  owner: deannatr
+  team_members:
+  - geordila
+  - williamr
+  - worf9e03
+  - deannatr
+- name: Tactical Response
+  description: Focuses on ship security and tactical planning.
+  module: Starfleet Division
+  owner: worf9e03
+  team_members:
+  - worf9e03
+  - geordila
+  - beverlyc
+  - dataf606

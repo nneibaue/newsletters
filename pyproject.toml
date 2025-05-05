@@ -13,6 +13,7 @@ authors = [
 dependencies = [
     "pydantic-ai",
     "typer[all]",
+    "sqlmodel",
     "langgraph",
     "langsmith",
     "langchain[anthropic]",

@@ -4,7 +4,7 @@
     "dockerfile": "Dockerfile"
   },
   "mounts": [
-    "source=/home/${localEnv:USER}/.ssh,target=/home/vscode/.ssh,type=bind"
+    "source=/home/${localEnv:USER}/.ssh,target=/home/vscode/.ssh,type=bind",
   ],
   "containerEnv": {
     "GEMINI_API_KEY": "${localEnv:GEMINI_API_KEY}",

@@ -7,7 +7,9 @@
     "source=/home/${localEnv:USER}/.ssh,target=/home/vscode/.ssh,type=bind"
   ],
   "containerEnv": {
-    "GEMINI_API_KEY": "${localEnv:GEMINI_API_KEY}"
+    "GEMINI_API_KEY": "${localEnv:GEMINI_API_KEY}",
+    "OPENAI_API_KEY": "${localEnv:OPENAI_API_KEY}",
+    "DATABASE_URL": "postgresql://postgres:postgres@host.docker.internal:54320/newsletters"
   },
   "customizations": {
     "vscode": {
@@ -37,6 +39,11 @@
       }
     }
   },
+  // start postgres
+  "initializeCommand": "./.devcontainer/start-postgres.sh",
   "postStartCommand": "sudo pip install -e .[dev]",
-  "remoteUser": "vscode"
+  "remoteUser": "vscode",
+  "runArgs": [
+    "--add-host=host.docker.internal:host-gateway"
+  ]
 }

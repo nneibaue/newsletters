@@ -1,0 +1,10 @@
+# mirrors newsletters pyproject.toml, but we install things in 
+# the base image for now so that we don't have to install them every time
+pydantic-ai[examples]
+structlog
+typer[all]
+sqlmodel
+langgraph
+langsmith
+mem0ai
+langchain[anthropic]

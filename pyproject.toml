@@ -17,6 +17,10 @@ dependencies = [
     "langgraph",
     "langsmith",
     "langchain[anthropic]",
+    "asyncpg",
+    "openai",
+    "httpx",
+    "logfire",
 ]
 
 [project.optional-dependencies]

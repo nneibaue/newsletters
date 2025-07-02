@@ -26,7 +26,8 @@
         "GitHub.copilot",
         "GitHub.copilot-labs",
         "GitHub.copilot-chat",
-        "Perkovec.emoji"
+        "Perkovec.emoji",
+        "ms-vscode.vscode-speech"
       ],
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",

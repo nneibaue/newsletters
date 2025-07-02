@@ -40,7 +40,10 @@
     }
   },
   // start postgres
-  "initializeCommand": "./.devcontainer/start-postgres.sh",
+  "initializeCommand": {
+    "start-postgres": "./.devcontainer/start-postgres.sh",
+    "ensure-ssh-dir-exists": "mkdir -p ~/.ssh",
+  },
   "postStartCommand": "sudo pip install -e .[dev]",
   "remoteUser": "vscode",
   "runArgs": [

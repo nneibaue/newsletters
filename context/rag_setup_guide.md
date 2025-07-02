@@ -154,7 +154,6 @@ This implementation follows the PydanticAI RAG example pattern:
 - Uses the same PostgreSQL + pgvector setup
 - Similar embedding and retrieval patterns
 - Async/await throughout for performance
-- Logfire integration for monitoring
 - Type-safe with Pydantic models
 
 The key adaptation is that instead of documentation sections, we're embedding and searching interview content for organizational insights.

@@ -286,7 +286,7 @@ async def database_connect(create_db: bool = False) -> AsyncGenerator[asyncpg.Po
     finally:
         await pool.close()
 
-
+# Creates a coroutine
 async def setup_database():
     """Set up the interview database schema"""
     async with database_connect(True) as pool:
